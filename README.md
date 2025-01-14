@@ -34,8 +34,6 @@ This project is a Node.js-based application for managing employees, their roles,
 ## Project Structure
 ```
 project/
-├── controllers/
-│   └── dataController.js   # Helper functions for handling data operations
 ├── models/
 │   ├── employee.model.js   # Employee model
 │   ├── department.model.js # Department model
@@ -44,7 +42,7 @@ project/
 │   └── employeeRole.model.js       # Junction table for employee-role
 ├── lib/
 │   └── index.js            # Sequelize instance setup
-├── app.js                  # Main application file
+├── index..js                  # Main application file
 └── package.json            # Project dependencies and scripts
 ```
 
